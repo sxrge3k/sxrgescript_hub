@@ -376,6 +376,16 @@ section:Button({
    end
 })
 
+section:Button({
+   Text = "Maru X Hub",
+   Callback = function()
+   local HwidList = {
+  "Ez-Cracked",
+}
+loadstring(game:HttpGet"https://raw.githubusercontent.com/naypramx/Crack/Script/MaruCracked")()
+   end
+})
+
 local column = tabsection:AddColumn({
    Title = "YBA"
 })
