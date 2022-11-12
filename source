@@ -567,6 +567,21 @@ section:Button({
    end
 })
 
+local column = tabsection:AddColumn({
+   Title = "Bee Swarm"
+})
+
+local section = column:Section({
+   Title = "Scripts"
+})
+
+section:Button({
+   Text = "DarkCyber Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/arktzyt/test/main/DarkCyber2.0"))()
+   end
+})
+
 local tabsection = tab:TabSection({
    Title = "Premium"
 })
