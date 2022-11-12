@@ -636,6 +636,20 @@ section:Button({
    end
 })
 
+local column = tabsection:AddColumn({
+   Title = "Legends of Speed"
+})
+
+local section = column:Section({
+   Title = "Scripts"
+})
+
+section:Button({
+   Text = "Uciha Hub",
+   Callback = function()
+   loadstring(Game:HttpGet("https://pastebin.com/raw/0A4J7V8M"))()
+   end
+})
 
 local tabsection = tab:TabSection({
    Title = "Premium"
