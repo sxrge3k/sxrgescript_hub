@@ -577,6 +577,21 @@ section:Button({
 })
 
 local column = tabsection:AddColumn({
+   Title = "Ro Ghoul"
+})
+
+local section = column:Section({
+   Title = "Scripts"
+})
+
+section:Button({
+   Text = "Ro-Ghoul Hub",
+   Callback = function()
+   loadstring(game:HttpGet(("https://aizen.ml/weis/RoGhoul.lua")))()
+   end
+})
+
+local column = tabsection:AddColumn({
    Title = "Build a Boat"
 })
 
