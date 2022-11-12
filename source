@@ -349,6 +349,13 @@ loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Blo
 })
 
 section:Button({
+   Text = "Mukuro Hub V1/V2 (V2 Need 550+ DPI)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"))()
+   end
+})
+
+section:Button({
    Text = "PlayBack Hub",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
