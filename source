@@ -410,6 +410,13 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/naypramx/Crack/Script/
    end
 })
 
+section:Button({
+   Text = "Chest Auto Farm + Server Hop",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))()
+   end
+})
+
 local column = tabsection:AddColumn({
    Title = "YBA"
 })
