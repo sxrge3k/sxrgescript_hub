@@ -582,6 +582,13 @@ section:Button({
    end
 })
 
+section:Button({
+   Text = "PWNER Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
+   end
+})
+
 local column = tabsection:AddColumn({
    Title = "Big Paintball"
 })
