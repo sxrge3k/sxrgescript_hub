@@ -24,6 +24,26 @@ btns:Button(
     end
 )
 
+local serv = win:Server("Troll", "")
+
+local btns = serv:Channel("Comandos de Admin")
+
+btns:Button(
+    "Infinite Yield",
+    function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+)
+
+local btns = serv:Channel("Troll FE")
+
+btns:Button(
+   "FE Knife", 
+   function() 
+   loadstring(game:HttpGet(('https://pastefy.ga/d7sogwNS/raw'),true))() 
+   end 
+ )
+
 local serv = win:Server("Scripts", "")
 
 local btns = serv:Channel("Anime Evolution Simulator")
@@ -317,6 +337,15 @@ btns:Button(
     end
 )
 
+local btns = serv:Channel("Prison Life")
+
+btns:Button(
+    "Prison Life Admin Commands",
+    function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/VUzUCJGf'))()
+    end
+)
+
 local btns = serv:Channel("Ragdoll Engine")
 
 btns:Button(
@@ -345,8 +374,103 @@ btns:Button(
 local btns = serv:Channel("Shindo Life")
 
 btns:Button(
-    "Leaf Hub",
+    "Project Meow Hub",
     function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
+    end
+)
+
+btns:Button(
+    "VG Hub",
+    function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    end
+)
+
+local btns = serv:Channel("Slap Battles")
+
+btns:Button(
+    "Dizzy Hub",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))() 
+    end
+)
+
+local btns = serv:Channel("Speed Run 4")
+
+btns:Button(
+    "Auto Win",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sxrge3k/Autowinspeedrun4/main/autowin"))()
+    end
+)
+
+btns:Button(
+    "SpeedRun 4 Hub",
+    function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
+    end
+)
+
+local btns = serv:Channel("Stands Upright")
+
+btns:Button(
+    "Project Polar Hub",
+    function()
+    loadstring(game:HttpGet("https://polar7.wtf/ProjectPolar/StandUpright.lua"))()
+    end
+)
+
+local btns = serv:Channel("Strongest Punch Simulator")
+
+btns:Button(
+    "Destiny Hub",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua",true))() 
+    end
+)
+
+local btns = serv:Channel("SPTS: Origin")
+
+btns:Button(
+    "YeYe Hub",
+    function()
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\83\111\98\97\107\101\110\89\47\121\101\121\101\104\117\98\47\109\97\105\110\47\98\111\114\111\110\100\105\101\37\50\48\121\101\121\101\37\50\48\116\101\115\116\46\108\117\97\39\44\32\116\114\117\101\41\41\40\41\10")() 
+    end
+)
+
+local btns = serv:Channel("Tower of Hell")
+
+btns:Button(
+    "Vespy Hub",
+    function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VectorXinside/tower/main/towerofhell.lua'))()
+    end
+)
+
+local btns = serv:Channel("Untitled AOT")
+
+btns:Button(
+    "Untitled AOT Hub",
+    function()
+    loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+    end
+)
+
+local btns = serv:Channel("Your Bizarre Adventure")
+
+btns:Button(
+    "Bitch Boy V1",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/MainGui.lua"))() 
+    end
+)
+
+local btns = serv:Channel("Zombie Attack")
+
+btns:Button(
+    "Zombie Attack Hub",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Zombie%20Attack.lua"))()
     end
 )
