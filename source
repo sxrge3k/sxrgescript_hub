@@ -42,6 +42,15 @@ btns:Button(
 
 local serv = win:Server("Troll", "")
 
+local btns = serv:Channel("Músicas")
+
+btns:Button(
+    "Em Breve",
+    function()
+    print("Em Breve!")
+    end
+)
+
 local btns = serv:Channel("Troll FE")
 
 btns:Button(
