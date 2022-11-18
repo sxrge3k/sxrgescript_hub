@@ -40,6 +40,29 @@ btns:Button(
     end
 )
 
+btns:Seperator()
+
+btns:Button(
+    "FPS Boost",
+    function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Y5t3jmiu"))()
+    end
+)
+
+btns:Button(
+    "Show FPS",
+    function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/KfQYtexs"))()
+    end
+)
+
+btns:Button(
+    "Show Ping",
+    function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MvKKJ331"))()
+    end
+)
+
 local serv = win:Server("Troll", "")
 
 local btns = serv:Channel("Músicas")
