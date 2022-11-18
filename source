@@ -24,9 +24,25 @@ btns:Button(
     end
 )
 
+local btns = serv:Channel("Main Scripts")
+
+btns:Button(
+    "Cursor/Mouse Script",
+    function()
+    loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+    end
+)
+
+btns:Button(
+    "Keyboard V1",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    end
+)
+
 local serv = win:Server("Troll", "")
 
-local btns = serv:Channel("Comandos de Admin")
+local btns = serv:Channel("Troll FE")
 
 btns:Button(
     "Infinite Yield",
@@ -35,14 +51,117 @@ btns:Button(
     end
 )
 
-local btns = serv:Channel("Troll FE")
+btns:Seperator()
 
 btns:Button(
-   "FE Knife", 
-   function() 
-   loadstring(game:HttpGet(('https://pastefy.ga/d7sogwNS/raw'),true))() 
-   end 
- )
+    "FE Baller / Need Cup of Gahwa",
+    function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9GjNat9h", true))()
+    end
+)
+
+btns:Button(
+    "FE Bird / Need The Bird Says____.",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficialKenfy/Bird/main/bird.r"))()
+    end
+)
+
+btns:Button(
+    "FE Controller / Need Controller Backpack",
+    function()
+    loadstring(game:HttpGet(("https://gist.githubusercontent.com/makssssae/cf7acff76da440516b68e6fabe861184/raw/88cceb2dedc19b037d74af7fc4d9a9ce2d57d9cb/throw"),true))()
+    end
+)
+
+btns:Button(
+    "FE Hat Holder",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sxrge3k/hatholder/main/hatholder"))()
+    end
+)
+
+btns:Button(
+    "FE Ink Monster",
+    function()
+    loadstring(game:HttpGet(('https://pastefy.ga/mv6EOsOX/raw'),true))()
+    end
+)
+
+btns:Button(
+    "FE Joy",
+    function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/LEAQuKj0"))()
+    end
+)
+
+btns:Button(
+    "FE Katana / Need Slasher",
+    function()
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\103\105\116\104\117\98\46\99\111\109\47\73\99\121\49\82\90\47\56\117\103\106\115\108\97\115\104\101\114\99\111\110\118\101\114\116\54\55\102\121\118\104\98\106\118\104\98\113\102\115\100\120\47\114\97\119\47\109\97\105\110\47\55\103\117\98\106\110\105\118\56\121\55\116\103\121\98\117\106\105\56\54\102\103\121\98\39\41\41\40\41\10")()
+    end
+)
+
+btns:Button(
+    "FE Knife",
+    function()
+    loadstring(game:HttpGet(('https://pastefy.ga/d7sogwNS/raw'),true))()
+    end
+)
+
+btns:Button(
+    "FE Saitama / Need Fan Hand Sign - WDW",
+    function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/ab77d0647ea8ff99efb45236a55f6b8e/raw/d039ae53abd5a698d72b48c106ec4cb8cc439896/FE%2520Saitama'))()
+    end
+)
+
+btns:Button(
+    "FE TV / Need Classic PC Hat & Dessert Plate Hat",
+    function()
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\102\121\46\103\97\47\102\119\81\76\72\120\122\51\47\114\97\119\39\41\44\116\114\117\101\41\41\40\41\10")()
+    end
+)
+
+local btns = serv:Channel("Troll Not FE")
+
+btns:Button(
+    "NOT FE 1x1x1x1",
+    function()
+    msg = Instance.new("Message")
+msg.Parent = game.Workspace
+msg.Text = "1x1x1x1:MUAHAHAHAHHAHAHAHHAH" 
+wait(4)
+msg.Text = "1x1x1x1:prepare for the punishment HAHAHAHAHAHAH" 
+wait(4)
+msg.Text = "1x1x1x1:YOU ALL WILL PAY BY BEING BANNED!" 
+wait(5)
+msg.Text = "1x1x1x1:I WILL DESTROY THIS SERVER HAHAHAHAHA"
+wait(2)
+game.Players.LocalPlayer:Kick("1x1x1x1 Destroyed the Server...")
+    end
+)
+
+btns:Button(
+    "NOT FE Character Resize",
+    function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/KRkXQmxs"))()
+    end
+)
+
+btns:Button(
+    "NOT FE Destroy the Server",
+    function()
+    game.Players.LocalPlayer:Kick("You Destroyed the Server...")
+    end
+)
+
+btns:Button(
+    "NOT FE FlameThrower / Need Bacon Hair",
+    function()
+    loadstring(game:HttpGet(('https://pastefy.ga/yqyptqKK/raw'),true))()
+    end
+)
 
 local serv = win:Server("Scripts", "")
 
@@ -112,6 +231,22 @@ btns:Button(
     end
 )
 
+local btns = serv:Channel("BloxBurg")
+
+btns:Button(
+    "BloxBurg (Auto Build)",
+    function()
+    local http_request = http_request or request or (syn and syn.request) or (http and http.request) loadstring(http_request({Url="https://projectillusion.dev/beta/illusion/script.lua",Method="GET"}).Body)()
+    end
+)
+
+btns:Button(
+    "Scar Hub",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/Roblox/main/Scar%20Hub"))()
+    end
+)
+
 local btns = serv:Channel("Blox Fruits")
 
 btns:Button(
@@ -125,6 +260,13 @@ btns:Button(
     "Chest Auto Farm + Server Hop",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))() 
+    end
+)
+
+btns:Button(
+    "Crimson Hub",
+    function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TirSANX/CrimsonHUB/main/C_Loader'))()
     end
 )
 
@@ -224,6 +366,15 @@ btns:Button(
     end
 )
 
+local btns = serv:Channel("Dragon Ball Rage")
+
+btns:Button(
+    "Dragon Ball Rage Hub",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rubicmaster/my_scripts/main/Dragon_ball_rage"))()
+    end
+)
+
 local btns = serv:Channel("Dragon Blox Ultimate")
 
 btns:Button(
@@ -251,7 +402,23 @@ btns:Button(
     end
 )
 
+local btns = serv:Channel("Fly Race")
+
+btns:Button(
+    "Fly Race Hub",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Amenteshades/robloxscripts/main/flyracemobile.lua"))()
+    end
+)
+
 local btns = serv:Channel("King Legacy")
+
+btns:Button(
+    "HoHo Hub",
+    function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() 
+    end
+)
 
 btns:Button(
     "Hyper Hub",
@@ -261,9 +428,9 @@ btns:Button(
 )
 
 btns:Button(
-    "HoHo Hub",
+    "ONE X Hub",
     function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/King-Legacy/main/README.md"))()
     end
 )
 
@@ -277,6 +444,13 @@ btns:Button(
 )
 
 local btns = serv:Channel("Murder Mystery 2")
+
+btns:Button(
+    "ESP Murder & Sheriff",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
+    end
+)
 
 btns:Button(
     "Vynixu Hub",
@@ -346,6 +520,15 @@ btns:Button(
     end
 )
 
+local btns = serv:Channel("Race Clicker")
+
+btns:Button(
+    "Race Clicker Hub",
+    function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Saaakai/Random-Roblox-Script/main/Race%20Clicker')))()
+    end
+)
+
 local btns = serv:Channel("Ragdoll Engine")
 
 btns:Button(
@@ -370,7 +553,7 @@ btns:Button(
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Roghoul", true))()
     end
 )
-
+ 
 local btns = serv:Channel("Shindo Life")
 
 btns:Button(
@@ -457,6 +640,15 @@ btns:Button(
     end
 )
 
+local btns = serv:Channel("Weapons Fighting Simulator")
+
+btns:Button(
+    "Weapons Fighting Hub",
+    function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+    end
+)
+
 local btns = serv:Channel("Your Bizarre Adventure")
 
 btns:Button(
@@ -469,8 +661,8 @@ btns:Button(
 local btns = serv:Channel("Zombie Attack")
 
 btns:Button(
-    "Zombie Attack Hub",
+    "Ghost Hub",
     function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Zombie%20Attack.lua"))()
+    loadstring(game:HttpGet('https://ghost-storage.7m.pl/scripts/ghosthublauncher.lua'))()
     end
 )
